@@ -1,9 +1,9 @@
 {
-  "editionNumber": 0,
+  "editionNumber": 1,
   "date": "2026-09-16",
   "preparedFor": "Ish B. Shukla",
-  "pullQuote": "The first edition arrives after tomorrow morning's automated run.",
-  "generatedAt": "2026-09-16T20:13:18.186Z",
+  "pullQuote": "Another day, another edition — read on.",
+  "generatedAt": "2026-09-16T20:18:01.771Z",
   "sections": [
     {
       "id": "global-politics",
@@ -81,53 +81,54 @@
       "id": "business-markets",
       "number": 5,
       "meta": {
-        "status": "seed",
-        "fetchedAt": "2026-09-16T20:13:18.186Z",
-        "sources": []
+        "fetchedAt": "2026-09-16T20:18:01.771Z",
+        "status": "forecast",
+        "sources": [],
+        "forecastNote": "No new central-bank or markets headline found today; indices are still live."
       },
       "content": {
         "layout": "markets",
         "body": {
           "indices": [
             {
-              "name": "US index",
+              "name": "S&P 500 (SPY proxy)",
               "region": "US",
               "value": "—",
               "change": "—",
               "direction": "flat",
               "asOf": "2026-09-16",
               "marketClosed": true,
-              "closedReason": "No data fetched yet"
+              "closedReason": "ALPHAVANTAGE_KEY not configured"
             },
             {
-              "name": "Germany index",
+              "name": "Germany (EWG proxy)",
               "region": "Germany",
               "value": "—",
               "change": "—",
               "direction": "flat",
               "asOf": "2026-09-16",
               "marketClosed": true,
-              "closedReason": "No data fetched yet"
+              "closedReason": "ALPHAVANTAGE_KEY not configured"
             },
             {
-              "name": "EU index",
+              "name": "Europe (VGK proxy)",
               "region": "EU",
               "value": "—",
               "change": "—",
               "direction": "flat",
               "asOf": "2026-09-16",
               "marketClosed": true,
-              "closedReason": "No data fetched yet"
+              "closedReason": "ALPHAVANTAGE_KEY not configured"
             },
             {
-              "name": "India index",
+              "name": "India (INDA proxy)",
               "region": "India",
               "value": "—",
               "change": "—",
               "direction": "flat",
               "asOf": "2026-09-16",
               "marketClosed": true,
-              "closedReason": "No data fetched yet"
+              "closedReason": "ALPHAVANTAGE_KEY not configured"
             }
           ],
           "items": [
@@ -148,60 +149,14 @@
       "id": "top-company-news",
       "number": 6,
       "meta": {
-        "status": "seed",
-        "fetchedAt": "2026-09-16T20:13:18.186Z",
+        "fetchedAt": "2026-09-16T20:18:01.771Z",
+        "status": "forecast",
         "sources": []
       },
       "content": {
         "layout": "company-cards",
         "body": {
-          "cards": [
-            {
-              "company": "—",
-              "region": "US",
-              "good": "Awaiting the first automated daily fetch.",
-              "bad": "Awaiting the first automated daily fetch.",
-              "affectsMe": "Awaiting the first automated daily fetch.",
-              "outlook": "Awaiting the first automated daily fetch.",
-              "outlookSource": "—"
-            },
-            {
-              "company": "—",
-              "region": "EU",
-              "good": "Awaiting the first automated daily fetch.",
-              "bad": "Awaiting the first automated daily fetch.",
-              "affectsMe": "Awaiting the first automated daily fetch.",
-              "outlook": "Awaiting the first automated daily fetch.",
-              "outlookSource": "—"
-            },
-            {
-              "company": "—",
-              "region": "Germany",
-              "good": "Awaiting the first automated daily fetch.",
-              "bad": "Awaiting the first automated daily fetch.",
-              "affectsMe": "Awaiting the first automated daily fetch.",
-              "outlook": "Awaiting the first automated daily fetch.",
-              "outlookSource": "—"
-            },
-            {
-              "company": "—",
-              "region": "India",
-              "good": "Awaiting the first automated daily fetch.",
-              "bad": "Awaiting the first automated daily fetch.",
-              "affectsMe": "Awaiting the first automated daily fetch.",
-              "outlook": "Awaiting the first automated daily fetch.",
-              "outlookSource": "—"
-            },
-            {
-              "company": "—",
-              "region": "US",
-              "good": "Awaiting the first automated daily fetch.",
-              "bad": "Awaiting the first automated daily fetch.",
-              "affectsMe": "Awaiting the first automated daily fetch.",
-              "outlook": "Awaiting the first automated daily fetch.",
-              "outlookSource": "—"
-            }
-          ]
+          "cards": []
         }
       }
     },
@@ -610,8 +565,8 @@
       "id": "startup-watch-usa",
       "number": 23,
       "meta": {
-        "status": "seed",
-        "fetchedAt": "2026-09-16T20:13:18.186Z",
+        "fetchedAt": "2026-09-16T20:18:01.771Z",
+        "status": "forecast",
         "sources": []
       },
       "content": {
@@ -628,8 +583,8 @@
       "id": "startup-watch-europe",
       "number": 24,
       "meta": {
-        "status": "seed",
-        "fetchedAt": "2026-09-16T20:13:18.186Z",
+        "fetchedAt": "2026-09-16T20:18:01.771Z",
+        "status": "forecast",
         "sources": []
       },
       "content": {
@@ -646,8 +601,8 @@
       "id": "startup-watch-china",
       "number": 25,
       "meta": {
-        "status": "seed",
-        "fetchedAt": "2026-09-16T20:13:18.186Z",
+        "fetchedAt": "2026-09-16T20:18:01.771Z",
+        "status": "forecast",
         "sources": []
       },
       "content": {
@@ -664,8 +619,8 @@
       "id": "startup-watch-india",
       "number": 26,
       "meta": {
-        "status": "seed",
-        "fetchedAt": "2026-09-16T20:13:18.186Z",
+        "fetchedAt": "2026-09-16T20:18:01.771Z",
+        "status": "forecast",
         "sources": []
       },
       "content": {
@@ -682,8 +637,8 @@
       "id": "it-job-market",
       "number": 27,
       "meta": {
-        "status": "seed",
-        "fetchedAt": "2026-09-16T20:13:18.186Z",
+        "fetchedAt": "2026-09-16T20:18:01.771Z",
+        "status": "forecast",
         "sources": []
       },
       "content": {

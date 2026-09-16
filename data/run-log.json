@@ -1,119 +1,253 @@
 {
-  "runAt": "2026-09-16T20:13:18.186Z",
-  "editionNumber": 0,
+  "runAt": "2026-09-16T20:18:01.771Z",
+  "editionNumber": 1,
   "entries": [
     {
       "sectionId": "global-politics",
-      "status": "seed"
+      "status": "seed",
+      "reason": "Carried over previous content after error: GEMINI_API_KEY is not set",
+      "durationMs": 1
     },
     {
       "sectionId": "indian-politics",
-      "status": "seed"
+      "status": "seed",
+      "reason": "Carried over previous content after error: GEMINI_API_KEY is not set",
+      "durationMs": 0
     },
     {
       "sectionId": "germany-eu-politics",
-      "status": "seed"
+      "status": "seed",
+      "reason": "Carried over previous content after error: GEMINI_API_KEY is not set",
+      "durationMs": 0
     },
     {
       "sectionId": "war-conflict",
-      "status": "seed"
+      "status": "seed",
+      "reason": "Carried over previous content after error: GEMINI_API_KEY is not set",
+      "durationMs": 0
     },
     {
       "sectionId": "business-markets",
-      "status": "seed"
+      "status": "forecast",
+      "durationMs": 0
     },
     {
       "sectionId": "top-company-news",
-      "status": "seed"
+      "status": "forecast",
+      "durationMs": 1
     },
     {
       "sectionId": "tech",
-      "status": "seed"
+      "status": "seed",
+      "reason": "Carried over previous content after error: GEMINI_API_KEY is not set",
+      "durationMs": 0
     },
     {
       "sectionId": "trade",
-      "status": "seed"
+      "status": "seed",
+      "reason": "Carried over previous content after error: GEMINI_API_KEY is not set",
+      "durationMs": 0
     },
     {
       "sectionId": "todays-reflection",
-      "status": "seed"
+      "status": "seed",
+      "reason": "Carried over previous content after error: GEMINI_API_KEY is not set",
+      "durationMs": 0
     },
     {
       "sectionId": "on-this-day",
-      "status": "seed"
+      "status": "seed",
+      "reason": "Carried over previous content after error: GEMINI_API_KEY is not set",
+      "durationMs": 13
     },
     {
       "sectionId": "wit-column",
-      "status": "seed"
+      "status": "seed",
+      "reason": "Carried over previous content after error: GEMINI_API_KEY is not set",
+      "durationMs": 0
     },
     {
       "sectionId": "word-bank",
-      "status": "seed"
+      "status": "seed",
+      "reason": "Carried over previous content after error: GEMINI_API_KEY is not set",
+      "durationMs": 0
     },
     {
       "sectionId": "compliment-vocabulary",
-      "status": "seed"
+      "status": "seed",
+      "reason": "Carried over previous content after error: GEMINI_API_KEY is not set",
+      "durationMs": 0
     },
     {
       "sectionId": "book-of-the-day",
-      "status": "seed"
+      "status": "seed",
+      "reason": "Carried over previous content after error: GEMINI_API_KEY is not set",
+      "durationMs": 1
     },
     {
       "sectionId": "sanskrit-shloka",
-      "status": "seed"
+      "status": "seed",
+      "reason": "Carried over previous content after error: GEMINI_API_KEY is not set",
+      "durationMs": 0
     },
     {
       "sectionId": "good-news",
-      "status": "seed"
+      "status": "seed",
+      "reason": "Carried over previous content after error: GEMINI_API_KEY is not set",
+      "durationMs": 0
     },
     {
       "sectionId": "daily-life-solved",
-      "status": "seed"
+      "status": "seed",
+      "reason": "Carried over previous content after error: GEMINI_API_KEY is not set",
+      "durationMs": 0
     },
     {
       "sectionId": "life-style-confidence",
-      "status": "seed"
+      "status": "seed",
+      "reason": "Carried over previous content after error: GEMINI_API_KEY is not set",
+      "durationMs": 0
     },
     {
       "sectionId": "did-you-know",
-      "status": "seed"
+      "status": "seed",
+      "reason": "Carried over previous content after error: GEMINI_API_KEY is not set",
+      "durationMs": 0
     },
     {
       "sectionId": "dating-social-life",
-      "status": "seed"
+      "status": "seed",
+      "reason": "Carried over previous content after error: GEMINI_API_KEY is not set",
+      "durationMs": 0
     },
     {
       "sectionId": "youth-perspective",
-      "status": "seed"
+      "status": "seed",
+      "reason": "Carried over previous content after error: GEMINI_API_KEY is not set",
+      "durationMs": 0
     },
     {
       "sectionId": "understand-people",
-      "status": "seed"
+      "status": "seed",
+      "reason": "Carried over previous content after error: GEMINI_API_KEY is not set",
+      "durationMs": 0
     },
     {
       "sectionId": "startup-watch-usa",
-      "status": "seed"
+      "status": "forecast",
+      "durationMs": 0
     },
     {
       "sectionId": "startup-watch-europe",
-      "status": "seed"
+      "status": "forecast",
+      "durationMs": 0
     },
     {
       "sectionId": "startup-watch-china",
-      "status": "seed"
+      "status": "forecast",
+      "durationMs": 0
     },
     {
       "sectionId": "startup-watch-india",
-      "status": "seed"
+      "status": "forecast",
+      "durationMs": 0
     },
     {
       "sectionId": "it-job-market",
-      "status": "seed"
+      "status": "forecast",
+      "durationMs": 1482
     },
     {
       "sectionId": "astrology-corner",
-      "status": "seed"
+      "status": "seed",
+      "reason": "Carried over previous content after error: GEMINI_API_KEY is not set",
+      "durationMs": 3
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "sectionId": "global-politics",
+      "message": "GEMINI_API_KEY is not set"
+    },
+    {
+      "sectionId": "indian-politics",
+      "message": "GEMINI_API_KEY is not set"
+    },
+    {
+      "sectionId": "germany-eu-politics",
+      "message": "GEMINI_API_KEY is not set"
+    },
+    {
+      "sectionId": "war-conflict",
+      "message": "GEMINI_API_KEY is not set"
+    },
+    {
+      "sectionId": "tech",
+      "message": "GEMINI_API_KEY is not set"
+    },
+    {
+      "sectionId": "trade",
+      "message": "GEMINI_API_KEY is not set"
+    },
+    {
+      "sectionId": "todays-reflection",
+      "message": "GEMINI_API_KEY is not set"
+    },
+    {
+      "sectionId": "wit-column",
+      "message": "GEMINI_API_KEY is not set"
+    },
+    {
+      "sectionId": "word-bank",
+      "message": "GEMINI_API_KEY is not set"
+    },
+    {
+      "sectionId": "compliment-vocabulary",
+      "message": "GEMINI_API_KEY is not set"
+    },
+    {
+      "sectionId": "book-of-the-day",
+      "message": "GEMINI_API_KEY is not set"
+    },
+    {
+      "sectionId": "sanskrit-shloka",
+      "message": "GEMINI_API_KEY is not set"
+    },
+    {
+      "sectionId": "on-this-day",
+      "message": "GEMINI_API_KEY is not set"
+    },
+    {
+      "sectionId": "good-news",
+      "message": "GEMINI_API_KEY is not set"
+    },
+    {
+      "sectionId": "daily-life-solved",
+      "message": "GEMINI_API_KEY is not set"
+    },
+    {
+      "sectionId": "dating-social-life",
+      "message": "GEMINI_API_KEY is not set"
+    },
+    {
+      "sectionId": "youth-perspective",
+      "message": "GEMINI_API_KEY is not set"
+    },
+    {
+      "sectionId": "life-style-confidence",
+      "message": "GEMINI_API_KEY is not set"
+    },
+    {
+      "sectionId": "understand-people",
+      "message": "GEMINI_API_KEY is not set"
+    },
+    {
+      "sectionId": "astrology-corner",
+      "message": "GEMINI_API_KEY is not set"
+    },
+    {
+      "sectionId": "did-you-know",
+      "message": "GEMINI_API_KEY is not set"
+    }
+  ]
 }
