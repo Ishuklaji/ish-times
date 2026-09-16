@@ -36,7 +36,9 @@ Required API keys (see `.env.example`):
 | `ALPHAVANTAGE_KEY` | US/Germany/EU/India index quotes (ETF proxies) | https://www.alphavantage.co/support/#api-key |
 | `ANTHROPIC_API_KEY` | Synthesizes every section's structured JSON from fetched facts; generates evergreen sections (word bank, shloka, astrology, etc.) | https://console.anthropic.com |
 
-No key is required for the IT Job Market section (uses the free Arbeitnow public API) or the Astrology Corner's transit math (computed locally via `astronomy-engine`, no API).
+No key is required for the IT Job Market section or the Astrology Corner's transit math (computed locally via `astronomy-engine`, no API).
+
+**IT Job Market sourcing, and why LinkedIn/Xing/StepStone aren't scraped:** none of those three expose a public API for job search, and scraping their result pages violates their terms of service (LinkedIn in particular actively blocks and pursues this) — so the daily job can't pull actual listings from them. What it does instead: `scripts/fetch-daily/lib/companyBoards.ts` queries each company's own public job-board API directly (Greenhouse/Lever — data the company itself opts into exposing programmatically, not scraped), which is the real "private company site" source of postings, filtered to React/Next.js/TypeScript/Node + Berlin/remote and individually HTTP-verified. It falls back to the free Arbeitnow aggregator API to fill out the remaining slots. LinkedIn/Xing/StepStone are covered as the three permanent search-filter links instead (a link can't 404 the way a scraped listing can go stale). The company list in `companyBoards.ts` is a curated starting set — ATS slugs drift, so add/remove companies there as needed; a wrong slug just gets silently skipped, never a fabricated posting.
 
 If a key is missing, the affected sections don't crash the run — they're logged as errors in `run-log.json` and the previous day's content is carried forward unchanged (visible on `/admin`).
 

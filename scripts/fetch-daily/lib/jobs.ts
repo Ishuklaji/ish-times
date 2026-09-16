@@ -1,4 +1,5 @@
 import { fetchJson, verifyUrlResolves } from "./http";
+import { stackMatches, isBerlinOrRemote } from "./jobFilters";
 import type { JobPosting } from "../../../lib/types";
 
 interface ArbeitnowJob {
@@ -16,15 +17,10 @@ interface ArbeitnowResponse {
   data: ArbeitnowJob[];
 }
 
-const WANTED = ["react", "next.js", "nextjs", "typescript", "node", "node.js"];
-const EXCLUDED = ["python", "django", "golang", " go ", "kubernetes", "vue", "angular"];
-
-function isRelevant(job: ArbeitnowJob): boolean {
-  const haystack = `${job.title} ${job.tags.join(" ")}`.toLowerCase();
-  const isBerlinOrRemote = /berlin|remote/i.test(job.location) || job.tags.some((t) => /remote/i.test(t));
-  const matchesWanted = WANTED.some((w) => haystack.includes(w));
-  const matchesExcluded = EXCLUDED.some((w) => haystack.includes(w));
-  return isBerlinOrRemote && matchesWanted && !matchesExcluded;
+function isRelevant(job: ArbeitnowJob): { relevant: boolean; stack: string[] } {
+  const { relevant, stack } = stackMatches(`${job.title} ${job.tags.join(" ")}`);
+  const locationOk = isBerlinOrRemote(job.location) || job.tags.some((t) => /remote/i.test(t));
+  return { relevant: relevant && locationOk, stack };
 }
 
 /**
@@ -34,10 +30,13 @@ function isRelevant(job: ArbeitnowJob): boolean {
  */
 export async function fetchVerifiedJobs(limit = 10): Promise<JobPosting[]> {
   const data = await fetchJson<ArbeitnowResponse>("https://www.arbeitnow.com/api/job-board-api");
-  const candidates = data.data.filter(isRelevant).slice(0, limit * 2);
+  const candidates = data.data
+    .map((job) => ({ job, check: isRelevant(job) }))
+    .filter((c) => c.check.relevant)
+    .slice(0, limit * 2);
 
   const verified: JobPosting[] = [];
-  for (const job of candidates) {
+  for (const { job, check } of candidates) {
     if (verified.length >= limit) break;
     const ok = await verifyUrlResolves(job.url);
     if (ok) {
@@ -45,7 +44,7 @@ export async function fetchVerifiedJobs(limit = 10): Promise<JobPosting[]> {
         title: job.title,
         company: job.company_name,
         location: job.location,
-        stack: job.tags.filter((t) => WANTED.some((w) => t.toLowerCase().includes(w))),
+        stack: check.stack,
         url: job.url,
         verifiedAt: new Date().toISOString(),
       });
