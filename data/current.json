@@ -590,7 +590,7 @@
       "content": {
         "layout": "startup-watch",
         "body": {
-          "region": "USA",
+          "region": "Europe",
           "trend": "mixed",
           "summary": "Awaiting the first automated daily fetch.",
           "dataPoints": []
@@ -608,7 +608,7 @@
       "content": {
         "layout": "startup-watch",
         "body": {
-          "region": "USA",
+          "region": "China",
           "trend": "mixed",
           "summary": "Awaiting the first automated daily fetch.",
           "dataPoints": []
@@ -626,7 +626,7 @@
       "content": {
         "layout": "startup-watch",
         "body": {
-          "region": "USA",
+          "region": "India",
           "trend": "mixed",
           "summary": "Awaiting the first automated daily fetch.",
           "dataPoints": []

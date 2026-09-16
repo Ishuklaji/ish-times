@@ -23,7 +23,14 @@ const seedMeta: SectionMeta = {
   sources: [],
 };
 
-function bodyFor(layout: SectionBody["layout"]): SectionBody {
+const STARTUP_REGION_BY_ID: Record<string, "USA" | "Europe" | "China" | "India"> = {
+  "startup-watch-usa": "USA",
+  "startup-watch-europe": "Europe",
+  "startup-watch-china": "China",
+  "startup-watch-india": "India",
+};
+
+function bodyFor(layout: SectionBody["layout"], sectionId: string): SectionBody {
   switch (layout) {
     case "narrative":
       return {
@@ -134,7 +141,7 @@ function bodyFor(layout: SectionBody["layout"]): SectionBody {
       return {
         layout,
         body: {
-          region: "USA",
+          region: STARTUP_REGION_BY_ID[sectionId] ?? "USA",
           trend: "mixed",
           summary: PLACEHOLDER,
           dataPoints: [],
@@ -175,7 +182,7 @@ const sections: Section[] = SECTION_REGISTRY.map((def) => ({
   id: def.id,
   number: def.number,
   meta: seedMeta,
-  content: bodyFor(def.layout),
+  content: bodyFor(def.layout, def.id),
 }));
 
 const edition: Edition = {
