@@ -1,0 +1,119 @@
+{
+  "runAt": "2026-09-16T03:18:47.703Z",
+  "editionNumber": 0,
+  "entries": [
+    {
+      "sectionId": "global-politics",
+      "status": "seed"
+    },
+    {
+      "sectionId": "indian-politics",
+      "status": "seed"
+    },
+    {
+      "sectionId": "germany-eu-politics",
+      "status": "seed"
+    },
+    {
+      "sectionId": "war-conflict",
+      "status": "seed"
+    },
+    {
+      "sectionId": "business-markets",
+      "status": "seed"
+    },
+    {
+      "sectionId": "top-company-news",
+      "status": "seed"
+    },
+    {
+      "sectionId": "tech",
+      "status": "seed"
+    },
+    {
+      "sectionId": "trade",
+      "status": "seed"
+    },
+    {
+      "sectionId": "todays-reflection",
+      "status": "seed"
+    },
+    {
+      "sectionId": "on-this-day",
+      "status": "seed"
+    },
+    {
+      "sectionId": "wit-column",
+      "status": "seed"
+    },
+    {
+      "sectionId": "word-bank",
+      "status": "seed"
+    },
+    {
+      "sectionId": "compliment-vocabulary",
+      "status": "seed"
+    },
+    {
+      "sectionId": "book-of-the-day",
+      "status": "seed"
+    },
+    {
+      "sectionId": "sanskrit-shloka",
+      "status": "seed"
+    },
+    {
+      "sectionId": "good-news",
+      "status": "seed"
+    },
+    {
+      "sectionId": "daily-life-solved",
+      "status": "seed"
+    },
+    {
+      "sectionId": "life-style-confidence",
+      "status": "seed"
+    },
+    {
+      "sectionId": "did-you-know",
+      "status": "seed"
+    },
+    {
+      "sectionId": "dating-social-life",
+      "status": "seed"
+    },
+    {
+      "sectionId": "youth-perspective",
+      "status": "seed"
+    },
+    {
+      "sectionId": "understand-people",
+      "status": "seed"
+    },
+    {
+      "sectionId": "startup-watch-usa",
+      "status": "seed"
+    },
+    {
+      "sectionId": "startup-watch-europe",
+      "status": "seed"
+    },
+    {
+      "sectionId": "startup-watch-china",
+      "status": "seed"
+    },
+    {
+      "sectionId": "startup-watch-india",
+      "status": "seed"
+    },
+    {
+      "sectionId": "it-job-market",
+      "status": "seed"
+    },
+    {
+      "sectionId": "astrology-corner",
+      "status": "seed"
+    }
+  ],
+  "errors": []
+}

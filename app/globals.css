@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f4f1ea;
+  --foreground: #1a1a1a;
+  --font-playfair-stack: var(--font-playfair), Georgia, "Times New Roman", serif;
+  --font-source-serif-stack: var(--font-source-serif), Georgia, "Times New Roman", serif;
+  --font-space-grotesk-stack: var(--font-space-grotesk), "Segoe UI", Arial, sans-serif;
+  --font-cormorant-stack: var(--font-cormorant), Georgia, "Times New Roman", serif;
+  --font-arial-stack: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-playfair: var(--font-playfair-stack);
+  --font-source-serif: var(--font-source-serif-stack);
+  --font-space-grotesk: var(--font-space-grotesk-stack);
+  --font-cormorant: var(--font-cormorant-stack);
+  --font-arial: var(--font-arial-stack);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #16130f;
+    --foreground: #ece8df;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-arial-stack);
+}
+
+/* Horizontal swipeable card deck: CSS scroll-snap, no drag/pointer JS math. */
+.card-deck {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.card-deck::-webkit-scrollbar {
+  display: none;
+}
+
+.card-deck > * {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  flex: 0 0 100%;
+}
