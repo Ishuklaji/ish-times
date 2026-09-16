@@ -1,5 +1,5 @@
 import { searchNarrowNews } from "../lib/news";
-import { synthesizeJson } from "../lib/anthropic";
+import { synthesizeJson } from "../lib/llm";
 import type { ListCardItem } from "../../../lib/types";
 
 export type ListCardsKind =

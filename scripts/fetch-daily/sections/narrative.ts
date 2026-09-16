@@ -1,5 +1,5 @@
 import { searchNarrowNews } from "../lib/news";
-import { synthesizeJson } from "../lib/anthropic";
+import { synthesizeJson } from "../lib/llm";
 import { isDuplicateOrStale, buildForecastNarrative } from "../lib/forecast";
 import { PROFILE_CONTEXT } from "../config";
 import type { Discrepancy, NarrativeBody, Section, SourceRef } from "../../../lib/types";

@@ -1,5 +1,5 @@
 import * as Astronomy from "astronomy-engine";
-import { synthesizeJson } from "./anthropic";
+import { synthesizeJson } from "./llm";
 import { drawRandomTarotCard } from "./tarot-deck";
 import { NATAL_CHART } from "../../../lib/natal-chart";
 import type { AstrologyBody } from "../../../lib/types";

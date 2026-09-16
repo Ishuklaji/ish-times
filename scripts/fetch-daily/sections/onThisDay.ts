@@ -1,4 +1,4 @@
-import { synthesizeJson } from "../lib/anthropic";
+import { synthesizeJson } from "../lib/llm";
 import type { OnThisDayBody } from "../../../lib/types";
 
 export async function fetchOnThisDaySectionData(date: Date): Promise<OnThisDayBody> {

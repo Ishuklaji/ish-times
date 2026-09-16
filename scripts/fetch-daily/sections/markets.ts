@@ -1,6 +1,6 @@
 import { fetchMarketIndices } from "../lib/markets";
 import { searchNarrowNews } from "../lib/news";
-import { synthesizeJson } from "../lib/anthropic";
+import { synthesizeJson } from "../lib/llm";
 import { isDuplicateOrStale } from "../lib/forecast";
 import { PROFILE_CONTEXT, NEWS_QUERIES } from "../config";
 import type { MarketsBody, Section, SourceRef } from "../../../lib/types";

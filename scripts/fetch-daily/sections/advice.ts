@@ -1,4 +1,4 @@
-import { synthesizeJson } from "../lib/anthropic";
+import { synthesizeJson } from "../lib/llm";
 import type { AdviceBody } from "../../../lib/types";
 
 export type AdviceKind = "life-style-confidence" | "understand-people";

@@ -1,5 +1,5 @@
 import { searchNarrowNews } from "../lib/news";
-import { synthesizeJson } from "../lib/anthropic";
+import { synthesizeJson } from "../lib/llm";
 import { PROFILE_CONTEXT, COMPANY_NEWS_QUERIES } from "../config";
 import type { CompanyCard, Section, SourceRef } from "../../../lib/types";
 

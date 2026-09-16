@@ -2,8 +2,9 @@ export const ENV = {
   newsApiKey: process.env.NEWSAPI_KEY,
   gNewsKey: process.env.GNEWS_KEY,
   alphaVantageKey: process.env.ALPHAVANTAGE_KEY,
-  anthropicKey: process.env.ANTHROPIC_API_KEY,
-  anthropicModel: process.env.ANTHROPIC_MODEL || "claude-sonnet-5",
+  // Google AI Studio free tier — https://aistudio.google.com/apikey (no billing required).
+  geminiKey: process.env.GEMINI_API_KEY,
+  geminiModel: process.env.GEMINI_MODEL || "gemini-2.0-flash",
 };
 
 /** Fixed personalization context injected into every synthesis prompt. */

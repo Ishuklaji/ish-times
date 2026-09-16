@@ -1,4 +1,4 @@
-import { synthesizeJson } from "../lib/anthropic";
+import { synthesizeJson } from "../lib/llm";
 import type { ShlokaBody } from "../../../lib/types";
 
 export async function fetchShlokaSectionData(usedShlokas: string[]): Promise<ShlokaBody> {

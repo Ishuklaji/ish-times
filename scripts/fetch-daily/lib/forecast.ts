@@ -1,4 +1,4 @@
-import { synthesizeJson } from "./anthropic";
+import { synthesizeJson } from "./llm";
 import type { NarrativeBody } from "../../../lib/types";
 
 function normalize(text: string): string {

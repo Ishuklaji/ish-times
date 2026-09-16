@@ -3,7 +3,7 @@ import { join } from "node:path";
 import { SECTION_REGISTRY } from "../../lib/sections-registry";
 import { NEWS_QUERIES } from "./config";
 import { loadUsedItems, saveUsedItems, markUsed } from "./lib/used-items";
-import { synthesizeJson } from "./lib/anthropic";
+import { synthesizeJson } from "./lib/llm";
 import { fetchNarrativeSection } from "./sections/narrative";
 import { fetchMarketsSectionData } from "./sections/markets";
 import { fetchCompanyCardsSectionData } from "./sections/companyCards";

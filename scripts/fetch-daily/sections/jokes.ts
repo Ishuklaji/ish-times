@@ -1,4 +1,4 @@
-import { synthesizeJson } from "../lib/anthropic";
+import { synthesizeJson } from "../lib/llm";
 import type { JokeDialogue } from "../../../lib/types";
 
 export async function fetchJokesSectionData(
