@@ -1,6 +1,10 @@
 @import "tailwindcss";
 
 :root {
+  /* Newsprint has one look, not a light/dark pair — opt out of the
+     browser's forced-dark repainting so masthead/nav (deliberately a fixed
+     cream background) never get their text auto-inverted independently. */
+  color-scheme: only light;
   --background: #f4f1ea;
   --foreground: #1a1a1a;
   --font-playfair-stack: var(--font-playfair), Georgia, "Times New Roman", serif;
@@ -18,13 +22,6 @@
   --font-space-grotesk: var(--font-space-grotesk-stack);
   --font-cormorant: var(--font-cormorant-stack);
   --font-arial: var(--font-arial-stack);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #16130f;
-    --foreground: #ece8df;
-  }
 }
 
 body {

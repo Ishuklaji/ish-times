@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import {
   Playfair_Display,
   Source_Serif_4,
@@ -35,6 +35,12 @@ const cormorant = Cormorant_Garamond({
 export const metadata: Metadata = {
   title: "The Ish Times",
   description: "A personal daily newspaper, prepared for Ish B. Shukla.",
+};
+
+export const viewport: Viewport = {
+  // Newsprint doesn't have a dark mode — tell browsers (esp. Android
+  // Chrome's "auto-dark for websites") not to auto-invert this page.
+  colorScheme: "only light",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
