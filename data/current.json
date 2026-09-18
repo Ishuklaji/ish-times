@@ -1,9 +1,9 @@
 {
-  "editionNumber": 3,
-  "date": "2026-09-17",
+  "editionNumber": 4,
+  "date": "2026-09-18",
   "preparedFor": "Ish B. Shukla",
   "pullQuote": "Another day, another edition — read on.",
-  "generatedAt": "2026-09-17T09:21:44.154Z",
+  "generatedAt": "2026-09-18T08:56:32.584Z",
   "sections": [
     {
       "id": "global-politics",
@@ -637,14 +637,25 @@
       "id": "it-job-market",
       "number": 27,
       "meta": {
-        "fetchedAt": "2026-09-17T09:21:44.154Z",
-        "status": "forecast",
+        "fetchedAt": "2026-09-18T08:56:32.584Z",
+        "status": "fresh",
         "sources": []
       },
       "content": {
         "layout": "jobs",
         "body": {
-          "postings": [],
+          "postings": [
+            {
+              "title": "Senior Typescript Developer (f/m/d)",
+              "company": "Sidestream",
+              "location": "Cologne",
+              "stack": [
+                "typescript"
+              ],
+              "url": "https://www.arbeitnow.com/jobs/companies/sidestream/senior-typescript-developer-cologne-108968",
+              "verifiedAt": "2026-09-18T08:56:36.006Z"
+            }
+          ],
           "searchLinks": [
             {
               "label": "LinkedIn — React/Next.js/TypeScript, Berlin",

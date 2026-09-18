@@ -1,42 +1,42 @@
 {
-  "runAt": "2026-09-17T09:21:44.154Z",
-  "editionNumber": 3,
+  "runAt": "2026-09-18T08:56:32.584Z",
+  "editionNumber": 4,
   "entries": [
     {
       "sectionId": "global-politics",
       "status": "seed",
       "reason": "Carried over previous content after error: HTTP 401 for https://newsapi.org/v2/everything?q=%22United%20Nations%20Security%20Council%22%20resolution&language=en&sortBy=publishedAt&pageSize=5&apiKey=••••••••••••••••••••••••••••••••",
-      "durationMs": 107
+      "durationMs": 234
     },
     {
       "sectionId": "indian-politics",
       "status": "seed",
       "reason": "Carried over previous content after error: HTTP 401 for https://newsapi.org/v2/everything?q=%22Narendra%20Modi%22%20Lok%20Sabha&language=en&sortBy=publishedAt&pageSize=5&apiKey=••••••••••••••••••••••••••••••••",
-      "durationMs": 204
+      "durationMs": 263
     },
     {
       "sectionId": "germany-eu-politics",
       "status": "seed",
       "reason": "Carried over previous content after error: HTTP 401 for https://newsapi.org/v2/everything?q=%22Friedrich%20Merz%22%20Bundestag&language=en&sortBy=publishedAt&pageSize=5&apiKey=••••••••••••••••••••••••••••••••",
-      "durationMs": 27
+      "durationMs": 28
     },
     {
       "sectionId": "war-conflict",
       "status": "seed",
       "reason": "Carried over previous content after error: HTTP 401 for https://newsapi.org/v2/everything?q=%22Ministry%20of%20Defence%22%20Ukraine%20strike&language=en&sortBy=publishedAt&pageSize=5&apiKey=••••••••••••••••••••••••••••••••",
-      "durationMs": 23
+      "durationMs": 30
     },
     {
       "sectionId": "business-markets",
       "status": "forecast",
       "reason": "Carried over previous content after error: HTTP 401 for https://newsapi.org/v2/everything?q=%22Federal%20Reserve%22%20interest%20rate%20decision&language=en&sortBy=publishedAt&pageSize=5&apiKey=••••••••••••••••••••••••••••••••",
-      "durationMs": 118
+      "durationMs": 239
     },
     {
       "sectionId": "top-company-news",
       "status": "forecast",
       "reason": "Carried over previous content after error: HTTP 401 for https://newsapi.org/v2/everything?q=%22Apple%22&language=en&sortBy=publishedAt&pageSize=5&apiKey=••••••••••••••••••••••••••••••••",
-      "durationMs": 23
+      "durationMs": 31
     },
     {
       "sectionId": "tech",
@@ -48,49 +48,49 @@
       "sectionId": "trade",
       "status": "seed",
       "reason": "Carried over previous content after error: HTTP 401 for https://newsapi.org/v2/everything?q=%22World%20Trade%20Organization%22%20ruling&language=en&sortBy=publishedAt&pageSize=5&apiKey=••••••••••••••••••••••••••••••••",
-      "durationMs": 22
+      "durationMs": 32
     },
     {
       "sectionId": "todays-reflection",
       "status": "seed",
       "reason": "Carried over previous content after error: Gemini HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n",
-      "durationMs": 64
+      "durationMs": 57
     },
     {
       "sectionId": "on-this-day",
       "status": "seed",
       "reason": "Carried over previous content after error: Gemini HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n",
-      "durationMs": 47
+      "durationMs": 43
     },
     {
       "sectionId": "wit-column",
       "status": "seed",
       "reason": "Carried over previous content after error: Gemini HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n",
-      "durationMs": 35
+      "durationMs": 21
     },
     {
       "sectionId": "word-bank",
       "status": "seed",
       "reason": "Carried over previous content after error: Gemini HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n",
-      "durationMs": 35
+      "durationMs": 28
     },
     {
       "sectionId": "compliment-vocabulary",
       "status": "seed",
       "reason": "Carried over previous content after error: Gemini HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n",
-      "durationMs": 35
+      "durationMs": 22
     },
     {
       "sectionId": "book-of-the-day",
       "status": "seed",
       "reason": "Carried over previous content after error: Gemini HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n",
-      "durationMs": 37
+      "durationMs": 21
     },
     {
       "sectionId": "sanskrit-shloka",
       "status": "seed",
       "reason": "Carried over previous content after error: Gemini HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n",
-      "durationMs": 38
+      "durationMs": 19
     },
     {
       "sectionId": "good-news",
@@ -102,72 +102,72 @@
       "sectionId": "daily-life-solved",
       "status": "seed",
       "reason": "Carried over previous content after error: Gemini HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n",
-      "durationMs": 38
+      "durationMs": 23
     },
     {
       "sectionId": "life-style-confidence",
       "status": "seed",
       "reason": "Carried over previous content after error: Gemini HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n",
-      "durationMs": 36
+      "durationMs": 23
     },
     {
       "sectionId": "did-you-know",
       "status": "seed",
       "reason": "Carried over previous content after error: Gemini HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n",
-      "durationMs": 37
+      "durationMs": 21
     },
     {
       "sectionId": "dating-social-life",
       "status": "seed",
       "reason": "Carried over previous content after error: Gemini HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n",
-      "durationMs": 38
+      "durationMs": 24
     },
     {
       "sectionId": "youth-perspective",
       "status": "seed",
       "reason": "Carried over previous content after error: Gemini HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n",
-      "durationMs": 37
+      "durationMs": 20
     },
     {
       "sectionId": "understand-people",
       "status": "seed",
       "reason": "Carried over previous content after error: Gemini HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n",
-      "durationMs": 36
+      "durationMs": 20
     },
     {
       "sectionId": "startup-watch-usa",
       "status": "forecast",
       "reason": "Carried over previous content after error: HTTP 401 for https://newsapi.org/v2/everything?q=%22Series%20A%22%20OR%20%22Series%20B%22%20funding%20startup%20United%20States&language=en&sortBy=publishedAt&pageSize=5&apiKey=••••••••••••••••••••••••••••••••",
-      "durationMs": 26
+      "durationMs": 27
     },
     {
       "sectionId": "startup-watch-europe",
       "status": "forecast",
       "reason": "Carried over previous content after error: HTTP 401 for https://newsapi.org/v2/everything?q=%22Series%20A%22%20OR%20%22Series%20B%22%20funding%20startup%20Europe&language=en&sortBy=publishedAt&pageSize=5&apiKey=••••••••••••••••••••••••••••••••",
-      "durationMs": 23
+      "durationMs": 31
     },
     {
       "sectionId": "startup-watch-china",
       "status": "forecast",
       "reason": "Carried over previous content after error: HTTP 401 for https://newsapi.org/v2/everything?q=%22funding%20round%22%20startup%20China&language=en&sortBy=publishedAt&pageSize=5&apiKey=••••••••••••••••••••••••••••••••",
-      "durationMs": 26
+      "durationMs": 27
     },
     {
       "sectionId": "startup-watch-india",
       "status": "forecast",
       "reason": "Carried over previous content after error: HTTP 401 for https://newsapi.org/v2/everything?q=%22funding%20round%22%20startup%20India&language=en&sortBy=publishedAt&pageSize=5&apiKey=••••••••••••••••••••••••••••••••",
-      "durationMs": 23
+      "durationMs": 31
     },
     {
       "sectionId": "it-job-market",
-      "status": "forecast",
-      "durationMs": 1568
+      "status": "fresh",
+      "durationMs": 2072
     },
     {
       "sectionId": "astrology-corner",
       "status": "seed",
       "reason": "Carried over previous content after error: Gemini HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n",
-      "durationMs": 39
+      "durationMs": 26
     }
   ],
   "errors": [
