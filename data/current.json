@@ -1,9 +1,9 @@
 {
-  "editionNumber": 4,
-  "date": "2026-09-18",
+  "editionNumber": 5,
+  "date": "2026-09-19",
   "preparedFor": "Ish B. Shukla",
   "pullQuote": "Another day, another edition — read on.",
-  "generatedAt": "2026-09-18T08:56:32.584Z",
+  "generatedAt": "2026-09-19T08:43:41.119Z",
   "sections": [
     {
       "id": "global-politics",
@@ -637,7 +637,7 @@
       "id": "it-job-market",
       "number": 27,
       "meta": {
-        "fetchedAt": "2026-09-18T08:56:32.584Z",
+        "fetchedAt": "2026-09-19T08:43:41.119Z",
         "status": "fresh",
         "sources": []
       },
@@ -646,14 +646,24 @@
         "body": {
           "postings": [
             {
-              "title": "Senior Typescript Developer (f/m/d)",
-              "company": "Sidestream",
-              "location": "Cologne",
+              "title": "Senior Frontend Engineer (React) - Remote friendly",
+              "company": "Qonto",
+              "location": "Berlin",
               "stack": [
-                "typescript"
+                "react"
               ],
-              "url": "https://www.arbeitnow.com/jobs/companies/sidestream/senior-typescript-developer-cologne-108968",
-              "verifiedAt": "2026-09-18T08:56:36.006Z"
+              "url": "https://www.arbeitnow.com/jobs/companies/qonto/senior-frontend-engineer-react-remote-friendly-berlin-484204",
+              "verifiedAt": "2026-09-19T08:43:45.296Z"
+            },
+            {
+              "title": "Senior Fullstack Software Engineer (Ruby/React & TS)",
+              "company": "Pennylane SAS",
+              "location": "Remote",
+              "stack": [
+                "react"
+              ],
+              "url": "https://www.arbeitnow.fr/jobs/companies/pennylane-sas/remote-senior-fullstack-software-engineer-ruby-react-ts-283957",
+              "verifiedAt": "2026-09-19T08:43:46.227Z"
             }
           ],
           "searchLinks": [
