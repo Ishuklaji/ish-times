@@ -1,9 +1,9 @@
 {
-  "editionNumber": 5,
-  "date": "2026-09-19",
+  "editionNumber": 6,
+  "date": "2026-09-20",
   "preparedFor": "Ish B. Shukla",
   "pullQuote": "Another day, another edition — read on.",
-  "generatedAt": "2026-09-19T08:43:41.119Z",
+  "generatedAt": "2026-09-20T09:12:33.112Z",
   "sections": [
     {
       "id": "global-politics",
@@ -637,35 +637,14 @@
       "id": "it-job-market",
       "number": 27,
       "meta": {
-        "fetchedAt": "2026-09-19T08:43:41.119Z",
-        "status": "fresh",
+        "fetchedAt": "2026-09-20T09:12:33.112Z",
+        "status": "forecast",
         "sources": []
       },
       "content": {
         "layout": "jobs",
         "body": {
-          "postings": [
-            {
-              "title": "Senior Frontend Engineer (React) - Remote friendly",
-              "company": "Qonto",
-              "location": "Berlin",
-              "stack": [
-                "react"
-              ],
-              "url": "https://www.arbeitnow.com/jobs/companies/qonto/senior-frontend-engineer-react-remote-friendly-berlin-484204",
-              "verifiedAt": "2026-09-19T08:43:45.296Z"
-            },
-            {
-              "title": "Senior Fullstack Software Engineer (Ruby/React & TS)",
-              "company": "Pennylane SAS",
-              "location": "Remote",
-              "stack": [
-                "react"
-              ],
-              "url": "https://www.arbeitnow.fr/jobs/companies/pennylane-sas/remote-senior-fullstack-software-engineer-ruby-react-ts-283957",
-              "verifiedAt": "2026-09-19T08:43:46.227Z"
-            }
-          ],
+          "postings": [],
           "searchLinks": [
             {
               "label": "LinkedIn — React/Next.js/TypeScript, Berlin",
