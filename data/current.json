@@ -1,9 +1,9 @@
 {
-  "editionNumber": 6,
-  "date": "2026-09-20",
+  "editionNumber": 7,
+  "date": "2026-09-21",
   "preparedFor": "Ish B. Shukla",
   "pullQuote": "Another day, another edition — read on.",
-  "generatedAt": "2026-09-20T09:12:33.112Z",
+  "generatedAt": "2026-09-21T09:49:48.851Z",
   "sections": [
     {
       "id": "global-politics",
@@ -637,7 +637,7 @@
       "id": "it-job-market",
       "number": 27,
       "meta": {
-        "fetchedAt": "2026-09-20T09:12:33.112Z",
+        "fetchedAt": "2026-09-21T09:49:48.851Z",
         "status": "forecast",
         "sources": []
       },
