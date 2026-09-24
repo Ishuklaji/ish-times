@@ -1,283 +1,283 @@
 {
-  "runAt": "2026-09-23T09:13:48.389Z",
-  "editionNumber": 9,
+  "runAt": "2026-09-24T01:34:51.465Z",
+  "editionNumber": 10,
   "entries": [
     {
       "sectionId": "global-politics",
       "status": "seed",
-      "reason": "Carried over previous content after error: HTTP 401 for https://newsapi.org/v2/everything?q=%22United%20Nations%20Security%20Council%22%20resolution&language=en&sortBy=publishedAt&pageSize=5&apiKey=••••••••••••••••••••••••••••••••",
-      "durationMs": 419
+      "reason": "Carried over previous content after error: Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n",
+      "durationMs": 369
     },
     {
       "sectionId": "indian-politics",
       "status": "seed",
-      "reason": "Carried over previous content after error: HTTP 401 for https://newsapi.org/v2/everything?q=%22Narendra%20Modi%22%20Lok%20Sabha&language=en&sortBy=publishedAt&pageSize=5&apiKey=••••••••••••••••••••••••••••••••",
-      "durationMs": 279
+      "reason": "Carried over previous content after error: Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n",
+      "durationMs": 143
     },
     {
       "sectionId": "germany-eu-politics",
       "status": "seed",
-      "reason": "Carried over previous content after error: HTTP 401 for https://newsapi.org/v2/everything?q=%22Friedrich%20Merz%22%20Bundestag&language=en&sortBy=publishedAt&pageSize=5&apiKey=••••••••••••••••••••••••••••••••",
-      "durationMs": 93
+      "reason": "Carried over previous content after error: Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n",
+      "durationMs": 139
     },
     {
       "sectionId": "war-conflict",
       "status": "seed",
-      "reason": "Carried over previous content after error: HTTP 401 for https://newsapi.org/v2/everything?q=%22Ministry%20of%20Defence%22%20Ukraine%20strike&language=en&sortBy=publishedAt&pageSize=5&apiKey=••••••••••••••••••••••••••••••••",
-      "durationMs": 87
+      "reason": "Carried over previous content after error: Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n",
+      "durationMs": 130
     },
     {
       "sectionId": "business-markets",
       "status": "forecast",
-      "reason": "Carried over previous content after error: HTTP 401 for https://newsapi.org/v2/everything?q=%22Federal%20Reserve%22%20interest%20rate%20decision&language=en&sortBy=publishedAt&pageSize=5&apiKey=••••••••••••••••••••••••••••••••",
-      "durationMs": 546
+      "reason": "Carried over previous content after error: Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n",
+      "durationMs": 410
     },
     {
       "sectionId": "top-company-news",
       "status": "forecast",
-      "reason": "Carried over previous content after error: HTTP 401 for https://newsapi.org/v2/everything?q=%22Apple%22&language=en&sortBy=publishedAt&pageSize=5&apiKey=••••••••••••••••••••••••••••••••",
-      "durationMs": 86
+      "reason": "Carried over previous content after error: Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n",
+      "durationMs": 146
     },
     {
       "sectionId": "tech",
       "status": "seed",
-      "reason": "Carried over previous content after error: HTTP 401 for https://newsapi.org/v2/everything?q=%22OpenAI%22%20OR%20%22Anthropic%22%20OR%20%22Google%20DeepMind%22%20announcement&language=en&sortBy=publishedAt&pageSize=5&apiKey=••••••••••••••••••••••••••••••••",
-      "durationMs": 96
+      "reason": "Carried over previous content after error: Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n",
+      "durationMs": 153
     },
     {
       "sectionId": "trade",
       "status": "seed",
-      "reason": "Carried over previous content after error: HTTP 401 for https://newsapi.org/v2/everything?q=%22World%20Trade%20Organization%22%20ruling&language=en&sortBy=publishedAt&pageSize=5&apiKey=••••••••••••••••••••••••••••••••",
-      "durationMs": 91
+      "reason": "Carried over previous content after error: Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n",
+      "durationMs": 153
     },
     {
       "sectionId": "todays-reflection",
       "status": "seed",
-      "reason": "Carried over previous content after error: Gemini HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n",
-      "durationMs": 294
+      "reason": "Carried over previous content after error: Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n",
+      "durationMs": 71
     },
     {
       "sectionId": "on-this-day",
       "status": "seed",
-      "reason": "Carried over previous content after error: Gemini HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n",
-      "durationMs": 167
+      "reason": "Carried over previous content after error: Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n",
+      "durationMs": 78
     },
     {
       "sectionId": "wit-column",
       "status": "seed",
-      "reason": "Carried over previous content after error: Gemini HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n",
-      "durationMs": 157
+      "reason": "Carried over previous content after error: Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n",
+      "durationMs": 62
     },
     {
       "sectionId": "word-bank",
       "status": "seed",
-      "reason": "Carried over previous content after error: Gemini HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n",
-      "durationMs": 34
+      "reason": "Carried over previous content after error: Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n",
+      "durationMs": 63
     },
     {
       "sectionId": "compliment-vocabulary",
       "status": "seed",
-      "reason": "Carried over previous content after error: Gemini HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n",
-      "durationMs": 115
+      "reason": "Carried over previous content after error: Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n",
+      "durationMs": 53
     },
     {
       "sectionId": "book-of-the-day",
       "status": "seed",
-      "reason": "Carried over previous content after error: Gemini HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n",
-      "durationMs": 50
+      "reason": "Carried over previous content after error: Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n",
+      "durationMs": 46
     },
     {
       "sectionId": "sanskrit-shloka",
       "status": "seed",
-      "reason": "Carried over previous content after error: Gemini HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n",
-      "durationMs": 35
+      "reason": "Carried over previous content after error: Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n",
+      "durationMs": 62
     },
     {
       "sectionId": "good-news",
       "status": "seed",
-      "reason": "Carried over previous content after error: HTTP 401 for https://newsapi.org/v2/everything?q=%22good%20news%22%20positive%20story%20this%20week&language=en&sortBy=publishedAt&pageSize=5&apiKey=••••••••••••••••••••••••••••••••",
-      "durationMs": 99
+      "reason": "Carried over previous content after error: Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n",
+      "durationMs": 155
     },
     {
       "sectionId": "daily-life-solved",
       "status": "seed",
-      "reason": "Carried over previous content after error: Gemini HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n",
-      "durationMs": 34
+      "reason": "Carried over previous content after error: Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n",
+      "durationMs": 67
     },
     {
       "sectionId": "life-style-confidence",
       "status": "seed",
-      "reason": "Carried over previous content after error: Gemini HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n",
-      "durationMs": 55
+      "reason": "Carried over previous content after error: Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n",
+      "durationMs": 65
     },
     {
       "sectionId": "did-you-know",
       "status": "seed",
-      "reason": "Carried over previous content after error: Gemini HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n",
-      "durationMs": 35
+      "reason": "Carried over previous content after error: Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n",
+      "durationMs": 50
     },
     {
       "sectionId": "dating-social-life",
       "status": "seed",
-      "reason": "Carried over previous content after error: Gemini HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n",
-      "durationMs": 124
+      "reason": "Carried over previous content after error: Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n",
+      "durationMs": 68
     },
     {
       "sectionId": "youth-perspective",
       "status": "seed",
-      "reason": "Carried over previous content after error: Gemini HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n",
-      "durationMs": 38
+      "reason": "Carried over previous content after error: Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n",
+      "durationMs": 57
     },
     {
       "sectionId": "understand-people",
       "status": "seed",
-      "reason": "Carried over previous content after error: Gemini HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n",
-      "durationMs": 61
+      "reason": "Carried over previous content after error: Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n",
+      "durationMs": 60
     },
     {
       "sectionId": "startup-watch-usa",
       "status": "forecast",
-      "reason": "Carried over previous content after error: HTTP 401 for https://newsapi.org/v2/everything?q=%22Series%20A%22%20OR%20%22Series%20B%22%20funding%20startup%20United%20States&language=en&sortBy=publishedAt&pageSize=5&apiKey=••••••••••••••••••••••••••••••••",
-      "durationMs": 96
+      "reason": "Carried over previous content after error: Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n",
+      "durationMs": 127
     },
     {
       "sectionId": "startup-watch-europe",
       "status": "forecast",
-      "reason": "Carried over previous content after error: HTTP 401 for https://newsapi.org/v2/everything?q=%22Series%20A%22%20OR%20%22Series%20B%22%20funding%20startup%20Europe&language=en&sortBy=publishedAt&pageSize=5&apiKey=••••••••••••••••••••••••••••••••",
-      "durationMs": 90
+      "reason": "Carried over previous content after error: Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n",
+      "durationMs": 125
     },
     {
       "sectionId": "startup-watch-china",
       "status": "forecast",
-      "reason": "Carried over previous content after error: HTTP 401 for https://newsapi.org/v2/everything?q=%22funding%20round%22%20startup%20China&language=en&sortBy=publishedAt&pageSize=5&apiKey=••••••••••••••••••••••••••••••••",
-      "durationMs": 98
+      "reason": "Carried over previous content after error: Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n",
+      "durationMs": 131
     },
     {
       "sectionId": "startup-watch-india",
       "status": "forecast",
-      "reason": "Carried over previous content after error: HTTP 401 for https://newsapi.org/v2/everything?q=%22funding%20round%22%20startup%20India&language=en&sortBy=publishedAt&pageSize=5&apiKey=••••••••••••••••••••••••••••••••",
-      "durationMs": 89
+      "reason": "Carried over previous content after error: Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n",
+      "durationMs": 132
     },
     {
       "sectionId": "it-job-market",
       "status": "forecast",
-      "durationMs": 3556
+      "durationMs": 1834
     },
     {
       "sectionId": "astrology-corner",
       "status": "seed",
-      "reason": "Carried over previous content after error: Gemini HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n",
-      "durationMs": 35
+      "reason": "Carried over previous content after error: Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n",
+      "durationMs": 52
     }
   ],
   "errors": [
     {
       "sectionId": "global-politics",
-      "message": "HTTP 401 for https://newsapi.org/v2/everything?q=%22United%20Nations%20Security%20Council%22%20resolution&language=en&sortBy=publishedAt&pageSize=5&apiKey=••••••••••••••••••••••••••••••••"
+      "message": "Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n"
     },
     {
       "sectionId": "indian-politics",
-      "message": "HTTP 401 for https://newsapi.org/v2/everything?q=%22Narendra%20Modi%22%20Lok%20Sabha&language=en&sortBy=publishedAt&pageSize=5&apiKey=••••••••••••••••••••••••••••••••"
+      "message": "Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n"
     },
     {
       "sectionId": "germany-eu-politics",
-      "message": "HTTP 401 for https://newsapi.org/v2/everything?q=%22Friedrich%20Merz%22%20Bundestag&language=en&sortBy=publishedAt&pageSize=5&apiKey=••••••••••••••••••••••••••••••••"
+      "message": "Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n"
     },
     {
       "sectionId": "war-conflict",
-      "message": "HTTP 401 for https://newsapi.org/v2/everything?q=%22Ministry%20of%20Defence%22%20Ukraine%20strike&language=en&sortBy=publishedAt&pageSize=5&apiKey=••••••••••••••••••••••••••••••••"
+      "message": "Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n"
     },
     {
       "sectionId": "tech",
-      "message": "HTTP 401 for https://newsapi.org/v2/everything?q=%22OpenAI%22%20OR%20%22Anthropic%22%20OR%20%22Google%20DeepMind%22%20announcement&language=en&sortBy=publishedAt&pageSize=5&apiKey=••••••••••••••••••••••••••••••••"
+      "message": "Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n"
     },
     {
       "sectionId": "trade",
-      "message": "HTTP 401 for https://newsapi.org/v2/everything?q=%22World%20Trade%20Organization%22%20ruling&language=en&sortBy=publishedAt&pageSize=5&apiKey=••••••••••••••••••••••••••••••••"
+      "message": "Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n"
     },
     {
       "sectionId": "business-markets",
-      "message": "HTTP 401 for https://newsapi.org/v2/everything?q=%22Federal%20Reserve%22%20interest%20rate%20decision&language=en&sortBy=publishedAt&pageSize=5&apiKey=••••••••••••••••••••••••••••••••"
+      "message": "Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n"
     },
     {
       "sectionId": "top-company-news",
-      "message": "HTTP 401 for https://newsapi.org/v2/everything?q=%22Apple%22&language=en&sortBy=publishedAt&pageSize=5&apiKey=••••••••••••••••••••••••••••••••"
+      "message": "Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n"
     },
     {
       "sectionId": "startup-watch-usa",
-      "message": "HTTP 401 for https://newsapi.org/v2/everything?q=%22Series%20A%22%20OR%20%22Series%20B%22%20funding%20startup%20United%20States&language=en&sortBy=publishedAt&pageSize=5&apiKey=••••••••••••••••••••••••••••••••"
+      "message": "Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n"
     },
     {
       "sectionId": "startup-watch-europe",
-      "message": "HTTP 401 for https://newsapi.org/v2/everything?q=%22Series%20A%22%20OR%20%22Series%20B%22%20funding%20startup%20Europe&language=en&sortBy=publishedAt&pageSize=5&apiKey=••••••••••••••••••••••••••••••••"
+      "message": "Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n"
     },
     {
       "sectionId": "startup-watch-china",
-      "message": "HTTP 401 for https://newsapi.org/v2/everything?q=%22funding%20round%22%20startup%20China&language=en&sortBy=publishedAt&pageSize=5&apiKey=••••••••••••••••••••••••••••••••"
+      "message": "Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n"
     },
     {
       "sectionId": "startup-watch-india",
-      "message": "HTTP 401 for https://newsapi.org/v2/everything?q=%22funding%20round%22%20startup%20India&language=en&sortBy=publishedAt&pageSize=5&apiKey=••••••••••••••••••••••••••••••••"
+      "message": "Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n"
     },
     {
       "sectionId": "todays-reflection",
-      "message": "Gemini HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+      "message": "Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n"
     },
     {
       "sectionId": "wit-column",
-      "message": "Gemini HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+      "message": "Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n"
     },
     {
       "sectionId": "word-bank",
-      "message": "Gemini HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+      "message": "Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n"
     },
     {
       "sectionId": "compliment-vocabulary",
-      "message": "Gemini HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+      "message": "Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n"
     },
     {
       "sectionId": "book-of-the-day",
-      "message": "Gemini HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+      "message": "Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n"
     },
     {
       "sectionId": "sanskrit-shloka",
-      "message": "Gemini HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+      "message": "Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n"
     },
     {
       "sectionId": "on-this-day",
-      "message": "Gemini HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+      "message": "Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n"
     },
     {
       "sectionId": "good-news",
-      "message": "HTTP 401 for https://newsapi.org/v2/everything?q=%22good%20news%22%20positive%20story%20this%20week&language=en&sortBy=publishedAt&pageSize=5&apiKey=••••••••••••••••••••••••••••••••"
+      "message": "Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n"
     },
     {
       "sectionId": "daily-life-solved",
-      "message": "Gemini HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+      "message": "Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n"
     },
     {
       "sectionId": "dating-social-life",
-      "message": "Gemini HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+      "message": "Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n"
     },
     {
       "sectionId": "youth-perspective",
-      "message": "Gemini HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+      "message": "Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n"
     },
     {
       "sectionId": "life-style-confidence",
-      "message": "Gemini HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+      "message": "Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n"
     },
     {
       "sectionId": "understand-people",
-      "message": "Gemini HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+      "message": "Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n"
     },
     {
       "sectionId": "astrology-corner",
-      "message": "Gemini HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+      "message": "Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n"
     },
     {
       "sectionId": "did-you-know",
-      "message": "Gemini HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+      "message": "Gemini HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n"
     }
   ]
 }
