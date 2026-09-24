@@ -4,7 +4,9 @@ export const ENV = {
   alphaVantageKey: process.env.ALPHAVANTAGE_KEY,
   // Google AI Studio free tier — https://aistudio.google.com/apikey (no billing required).
   geminiKey: process.env.GEMINI_API_KEY,
-  geminiModel: process.env.GEMINI_MODEL || "gemini-2.0-flash",
+  // "latest" alias hot-swaps as Google retires specific dated versions (2.0-flash
+  // was shut down 2026-09) — avoids re-breaking the pipeline every deprecation cycle.
+  geminiModel: process.env.GEMINI_MODEL || "gemini-flash-latest",
 };
 
 /** Fixed personalization context injected into every synthesis prompt. */

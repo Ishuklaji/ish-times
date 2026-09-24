@@ -23,14 +23,19 @@ async function searchNewsApi(query: string): Promise<NewsArticle[]> {
   const url =
     `https://newsapi.org/v2/everything?q=${encodeURIComponent(query)}` +
     `&language=en&sortBy=publishedAt&pageSize=5&apiKey=${ENV.newsApiKey}`;
-  const data = await fetchJson<NewsApiResponse>(url);
-  return data.articles.map((a) => ({
-    title: a.title,
-    description: a.description ?? "",
-    url: a.url,
-    publishedAt: a.publishedAt,
-    sourceName: a.source.name,
-  }));
+  try {
+    const data = await fetchJson<NewsApiResponse>(url);
+    return data.articles.map((a) => ({
+      title: a.title,
+      description: a.description ?? "",
+      url: a.url,
+      publishedAt: a.publishedAt,
+      sourceName: a.source.name,
+    }));
+  } catch (err) {
+    console.error(`NewsAPI request failed for "${query}": ${err instanceof Error ? err.message : err}`);
+    return [];
+  }
 }
 
 async function searchGNews(query: string): Promise<NewsArticle[]> {
@@ -38,14 +43,19 @@ async function searchGNews(query: string): Promise<NewsArticle[]> {
   const url =
     `https://gnews.io/api/v4/search?q=${encodeURIComponent(query)}` +
     `&lang=en&max=5&apikey=${ENV.gNewsKey}`;
-  const data = await fetchJson<GNewsResponse>(url);
-  return data.articles.map((a) => ({
-    title: a.title,
-    description: a.description,
-    url: a.url,
-    publishedAt: a.publishedAt,
-    sourceName: a.source.name,
-  }));
+  try {
+    const data = await fetchJson<GNewsResponse>(url);
+    return data.articles.map((a) => ({
+      title: a.title,
+      description: a.description,
+      url: a.url,
+      publishedAt: a.publishedAt,
+      sourceName: a.source.name,
+    }));
+  } catch (err) {
+    console.error(`GNews request failed for "${query}": ${err instanceof Error ? err.message : err}`);
+    return [];
+  }
 }
 
 /**
