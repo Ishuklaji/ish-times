@@ -1,9 +1,9 @@
 {
-  "editionNumber": 12,
+  "editionNumber": 13,
   "date": "2026-09-24",
   "preparedFor": "Ish B. Shukla",
   "pullQuote": "Another day, another edition — read on.",
-  "generatedAt": "2026-09-24T01:40:20.837Z",
+  "generatedAt": "2026-09-24T09:12:00.614Z",
   "sections": [
     {
       "id": "global-politics",
@@ -53,7 +53,7 @@
       "id": "indian-politics",
       "number": 2,
       "meta": {
-        "fetchedAt": "2026-09-24T01:40:20.837Z",
+        "fetchedAt": "2026-09-24T09:12:00.614Z",
         "status": "fresh",
         "sources": [
           {
@@ -86,10 +86,10 @@
       "content": {
         "layout": "narrative",
         "body": {
-          "headline": "Modi Convenes Cabinet Chintan Shivirs as Rahul Gandhi Targets PM on Student Housing and Education",
-          "whatHappened": "Prime Minister Narendra Modi is scheduled to lead two days of chintan shivirs with Union Cabinet ministers beginning Wednesday at 4 pm at Seva Teerth. Concurrently, Congress leader Rahul Gandhi addressed his 'Chhatron Ki Goonj' outreach event in Indore, which drew roughly 1.5 lakh student registrations. Gandhi and the Congress accused the BJP-RSS of eroding the education system to discourage questioning, while Gandhi specifically questioned PM Modi over the lack of hostels for female students, citing safety and cost struggles. Additionally, both Modi and Gandhi offered condolences following the sudden death of 46-year-old CNN-News18 journalist Payal Mehta in Mumbai.",
-          "affectsMe": "As an Indian developer building Prepty and Forgey from Berlin, seeing education and student welfare dominate the political agenda in India touches directly on the environment and challenges faced by the student demographic back home, even while Union ministers gather behind closed doors for strategy sessions.",
-          "talkingPoint": "While PM Modi gathers his entire Cabinet for two days of chintan shivirs, Rahul Gandhi is focusing his attack on tangible student grievances like hostel shortages and systemic pressures in education."
+          "headline": "PM Modi to Chair Union Ministers' Chintan Shivirs as Rahul Gandhi Confronts Centre on Student Infrastructure",
+          "whatHappened": "Prime Minister Narendra Modi is set to chair a series of 'chintan shivirs' with Union Ministers at Seva Teerth, starting Wednesday afternoon and continuing through a full-day session on Thursday, with all Cabinet ministers expected to take part. Meanwhile, Congress leader Rahul Gandhi targeted Modi during his 'Chhatron Ki Goonj' outreach event in Indore—for which Digvijaya Singh reported approximately 1.5 lakh students had registered—demanding accountability over the shortage of female student hostels and accusing the BJP-RSS of undermining the country's education system. Separately, both Modi and Gandhi extended condolences on the passing of 46-year-old CNN-News18 senior journalist Payal Mehta in Mumbai.",
+          "affectsMe": "While building Prepty from Berlin, keeping tabs on debates over India's education system and the real-world safety and accommodation obstacles faced by students highlights the broader structural environment in which Indian learners operate.",
+          "talkingPoint": "With Modi convening his full Cabinet for internal brainstorming at Seva Teerth, the opposition is attempting to corner the government on student welfare issues like the acute shortage of female hostels."
         }
       }
     },
@@ -715,7 +715,7 @@
       "id": "it-job-market",
       "number": 27,
       "meta": {
-        "fetchedAt": "2026-09-24T01:40:20.837Z",
+        "fetchedAt": "2026-09-24T09:12:00.614Z",
         "status": "forecast",
         "sources": []
       },
