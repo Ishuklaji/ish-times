@@ -1,15 +1,15 @@
 {
-  "editionNumber": 17,
-  "date": "2026-09-28",
+  "editionNumber": 18,
+  "date": "2026-09-29",
   "preparedFor": "Ish B. Shukla",
   "pullQuote": "Another day, another edition — read on.",
-  "generatedAt": "2026-09-28T10:46:30.344Z",
+  "generatedAt": "2026-09-29T10:34:26.878Z",
   "sections": [
     {
       "id": "global-politics",
       "number": 1,
       "meta": {
-        "fetchedAt": "2026-09-28T10:46:30.344Z",
+        "fetchedAt": "2026-09-29T10:34:26.878Z",
         "status": "fresh",
         "sources": [
           {
@@ -42,10 +42,10 @@
       "content": {
         "layout": "narrative",
         "body": {
-          "headline": "Push for UN Security Council Overhaul Mounts as Turkiye and Africa Challenge Veto Power",
-          "whatHappened": "At the UN, calls for Security Council reform are intensifying: Turkiye called for an end to the UNSC veto power—a move that would require the unlikely consensus of all five permanent members—while Africa's push for permanent seats and veto rights remains unresolved. Meanwhile, Indonesian Foreign Minister Sugiono announced Indonesia's candidacy for a non-permanent seat for the 2029–2030 term and urged accelerated action on a two-state solution for Palestine, and President Trump delivered an 'America First' message to the body.",
-          "affectsMe": "As an Indian living in Berlin, debates over who gets a permanent seat or veto power at the UNSC resonate closely with India's own long-standing diplomatic ambitions. On a conceptual level, watching global institutions struggle with governance gridlock and entrenched vetoes is a good reminder of how hard decentralized decision-making is to design, even when planning user permissions and admin hierarchies for side projects like Forgey or Prepty.",
-          "talkingPoint": "Turkiye wants the veto abolished and Africa wants veto-wielding permanent seats, but because any veto reform requires approval from the existing permanent five, the Council is practically locked in place."
+          "headline": "UN Security Council Reform and Veto Debates Intensify at UNGA 81",
+          "whatHappened": "At the 81st Session of the UN General Assembly, Indonesian Foreign Minister Sugiono announced Indonesia's candidacy for a non-permanent seat on the United Nations Security Council for the 2029–2030 term, while also urging the accelerated implementation of a two-state solution in Palestine. Meanwhile, calls for Security Council reform gained focus as Turkiye advocated for ending the Council veto power—which would require unanimous approval from the five permanent members—and African nations continued their unresolved push for permanent seats and veto rights. Additionally, President Trump delivered an 'America First' message to the United Nations.",
+          "affectsMe": "As an Indian expat in Berlin, discussions surrounding multilateral governance and UN Security Council seats mirror ongoing debates about emerging powers' global influence. While my daily work centers on TypeScript, the MERN stack, and building Forgey and Prepty, shifting international alignments can subtly shape cross-border business environments, immigration policies, and international tech ecosystems.",
+          "talkingPoint": "Everyone at UNGA 81 is debating Security Council reform—from African nations seeking permanent seats to Turkiye demanding an end to the veto—but abolishing veto power still hinges on the five permanent members agreeing to surrender it."
         }
       }
     },
@@ -190,10 +190,35 @@
       "id": "business-markets",
       "number": 5,
       "meta": {
-        "fetchedAt": "2026-09-16T20:18:01.771Z",
-        "status": "forecast",
-        "sources": [],
-        "forecastNote": "No new central-bank or markets headline found today; indices are still live."
+        "fetchedAt": "2026-09-29T10:34:26.878Z",
+        "status": "fresh",
+        "sources": [
+          {
+            "label": "Antaranews.com",
+            "url": "https://en.antaranews.com/news/433297/fed-rate-hike-expected-in-q4-as-energy-prices-surge-bi",
+            "publishedAt": "2026-09-28T09:39:34Z"
+          },
+          {
+            "label": "The Punch",
+            "url": "https://punchng.com/oil-prices-spike-after-trump-rejects-iran-truce-offer/",
+            "publishedAt": "2026-09-28T08:37:41Z"
+          },
+          {
+            "label": "Protothema.gr",
+            "url": "https://en.protothema.gr/2026/09/28/prime-minister-returns-to-a-crowded-in-tray-as-piraeus-bank-seals-iaso-deal/",
+            "publishedAt": "2026-09-28T05:18:32Z"
+          },
+          {
+            "label": "The Times of India",
+            "url": "https://economictimes.indiatimes.com/markets/bonds/etmarkets-smart-talk-fed-tightening-returns-ritesh-nambiar-on-what-it-means-for-indian-bonds-and-the-rupee/articleshow/134531058.cms",
+            "publishedAt": "2026-09-28T03:46:45Z"
+          },
+          {
+            "label": "Stanford.edu",
+            "url": "https://siepr.stanford.edu/news/federal-reserve-balance-sheet-warsh",
+            "publishedAt": "2026-09-28T00:00:00Z"
+          }
+        ]
       },
       "content": {
         "layout": "markets",
@@ -202,32 +227,32 @@
             {
               "name": "S&P 500 (SPY proxy)",
               "region": "US",
-              "value": "—",
-              "change": "—",
-              "direction": "flat",
-              "asOf": "2026-09-16",
+              "value": "765.6100",
+              "change": "-0.7441%",
+              "direction": "down",
+              "asOf": "2026-09-28",
               "marketClosed": true,
-              "closedReason": "ALPHAVANTAGE_KEY not configured"
+              "closedReason": "Markets closed as of latest available quote"
             },
             {
               "name": "Germany (EWG proxy)",
               "region": "Germany",
-              "value": "—",
-              "change": "—",
-              "direction": "flat",
-              "asOf": "2026-09-16",
+              "value": "42.1300",
+              "change": "-0.3076%",
+              "direction": "down",
+              "asOf": "2026-09-28",
               "marketClosed": true,
-              "closedReason": "ALPHAVANTAGE_KEY not configured"
+              "closedReason": "Markets closed as of latest available quote"
             },
             {
               "name": "Europe (VGK proxy)",
               "region": "EU",
-              "value": "—",
-              "change": "—",
-              "direction": "flat",
-              "asOf": "2026-09-16",
+              "value": "88.3800",
+              "change": "-0.2821%",
+              "direction": "down",
+              "asOf": "2026-09-28",
               "marketClosed": true,
-              "closedReason": "ALPHAVANTAGE_KEY not configured"
+              "closedReason": "Markets closed as of latest available quote"
             },
             {
               "name": "India (INDA proxy)",
@@ -235,19 +260,19 @@
               "value": "—",
               "change": "—",
               "direction": "flat",
-              "asOf": "2026-09-16",
+              "asOf": "2026-09-29",
               "marketClosed": true,
-              "closedReason": "ALPHAVANTAGE_KEY not configured"
+              "closedReason": "HTTP 503 for https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=INDA&apikey=0GR5H70XFQLA0EGE"
             }
           ],
           "items": [
             {
-              "headline": "Awaiting the first automated daily fetch.",
+              "headline": "Fed Rate Hike Expected in Q4 as Energy Prices Surge",
               "points": [
-                "Awaiting the first automated daily fetch.",
-                "Awaiting the first automated daily fetch.",
-                "Awaiting the first automated daily fetch.",
-                "Awaiting the first automated daily fetch."
+                "The Federal Reserve is projected to execute one final interest rate hike in the fourth quarter of 2026.",
+                "The policy tightening comes amid persistent global inflationary pressures driven by rising energy costs.",
+                "Oil prices spiked following former US President Donald Trump's rejection of an Iranian seven-day truce offer.",
+                "The oil rally has heightened ongoing market concerns regarding persistent global inflation."
               ]
             }
           ]
@@ -830,7 +855,7 @@
       "id": "it-job-market",
       "number": 27,
       "meta": {
-        "fetchedAt": "2026-09-28T10:46:30.344Z",
+        "fetchedAt": "2026-09-29T10:34:26.878Z",
         "status": "forecast",
         "sources": []
       },
