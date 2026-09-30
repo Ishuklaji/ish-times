@@ -1,9 +1,9 @@
 {
-  "editionNumber": 18,
-  "date": "2026-09-29",
+  "editionNumber": 19,
+  "date": "2026-09-30",
   "preparedFor": "Ish B. Shukla",
   "pullQuote": "Another day, another edition — read on.",
-  "generatedAt": "2026-09-29T10:34:26.878Z",
+  "generatedAt": "2026-09-30T10:24:15.188Z",
   "sections": [
     {
       "id": "global-politics",
@@ -298,43 +298,43 @@
       "id": "tech",
       "number": 7,
       "meta": {
-        "fetchedAt": "2026-09-28T10:46:30.344Z",
+        "fetchedAt": "2026-09-30T10:24:15.188Z",
         "status": "fresh",
         "sources": [
           {
-            "label": "CNN",
-            "url": "https://www.cnn.com/2026/09/27/science/spacex-starship-orbital-launch",
-            "publishedAt": "2026-09-27T10:30:29Z"
+            "label": "Crypto Briefing",
+            "url": "https://cryptobriefing.com/el-salvador-launches-app-for-digital-dollars-via-coinbases-base-network/",
+            "publishedAt": "2026-09-29T10:22:49Z"
           },
           {
-            "label": "Forbes",
-            "url": "https://www.forbes.com/sites/peterchawaga/2026/09/27/phillies-organization-announces-new-stadium-name-after-record-attendance/",
-            "publishedAt": "2026-09-27T10:30:00Z"
+            "label": "Help Net Security",
+            "url": "https://www.helpnetsecurity.com/2026/09/29/palo-alto-networks-nvidia-ai-agent-security/",
+            "publishedAt": "2026-09-29T10:21:25Z"
           },
           {
-            "label": "Goodereader",
-            "url": "https://goodereader.com/blog/audiobooks/audible-is-translating-european-audiobooks-to-english",
-            "publishedAt": "2026-09-27T10:25:36Z"
+            "label": "Business Standard",
+            "url": "https://www.business-standard.com/markets/capital-market-news/coal-india-inks-mou-with-hindustan-urvarak-rasayan-for-coal-gasification-project-126092900719_1.html",
+            "publishedAt": "2026-09-29T10:20:06Z"
           },
           {
-            "label": "Screen Rant",
-            "url": "https://screenrant.com/jensen-ackles-rules-of-prey-prime-video-countdown/",
-            "publishedAt": "2026-09-27T10:15:15Z"
+            "label": "The Next Web",
+            "url": "https://thenextweb.com/news/samsung-1bn-helix-kkr-ai-infrastructure",
+            "publishedAt": "2026-09-29T10:18:01Z"
           },
           {
-            "label": "Presstv.co.uk",
-            "url": "https://www.presstv.co.uk/Detail/2026/09/27/777099/Seven-Palestinians-killed-in-Israeli-attacks-Health-Ministry-Gaza-Strip",
-            "publishedAt": "2026-09-27T10:13:44Z"
+            "label": "Time Out",
+            "url": "https://www.timeout.com/london/news/tfl-running-london-buses-passenger-guide-092926",
+            "publishedAt": "2026-09-29T10:17:34Z"
           }
         ]
       },
       "content": {
         "layout": "narrative",
         "body": {
-          "headline": "Audible Chooses Human Translators Over AI for European Audiobooks",
-          "whatHappened": "Audible has begun translating European Audible Originals into English, explicitly using human translators rather than AI to complete the work.",
-          "affectsMe": "Living in Berlin while engineering projects like Prepty and Forgey, it stands out that a major tech platform is intentionally relying on human labor rather than AI translation pipelines for European language content.",
-          "talkingPoint": "Audible is translating European Originals into English and specifically opted for human translators instead of relying on AI."
+          "headline": "Palo Alto Networks and NVIDIA Partner on AI Agent Controls via Open Agent Safety Platform",
+          "whatHappened": "Palo Alto Networks announced an expanded collaboration with NVIDIA to provide enterprises with tighter control over AI agents. Using NVIDIA's Open Agent Safety Platform reference design, the partnership focuses on managing identity, monitoring agent activity, and overseeing network traffic to regulate what AI agents can access and do.",
+          "affectsMe": "As a developer working with the MERN stack, Next.js, and TypeScript on Forgey and Prepty, shifts toward standardized frameworks for network traffic and identity management outline the emerging protocols companies are adopting to control autonomous agent activity.",
+          "talkingPoint": "NVIDIA and Palo Alto Networks are pushing to standardize controls on AI agents by targeting agent activity, identity management, and network traffic through NVIDIA's Open Agent Safety Platform."
         }
       }
     },
@@ -855,7 +855,7 @@
       "id": "it-job-market",
       "number": 27,
       "meta": {
-        "fetchedAt": "2026-09-29T10:34:26.878Z",
+        "fetchedAt": "2026-09-30T10:24:15.188Z",
         "status": "forecast",
         "sources": []
       },
