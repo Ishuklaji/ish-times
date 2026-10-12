@@ -1,5 +1,5 @@
 export async function fetchJson<T>(url: string, init?: RequestInit): Promise<T> {
-  const res = await fetch(url, init);
+  const res = await fetch(url, { signal: AbortSignal.timeout(20_000), ...init });
   if (!res.ok) {
     throw new Error(`HTTP ${res.status} for ${url}`);
   }

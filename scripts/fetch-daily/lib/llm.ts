@@ -49,6 +49,7 @@ export async function synthesizeJson<T>(systemPrompt: string, userPrompt: string
     const res = await fetch(url, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
+      signal: AbortSignal.timeout(90_000),
       body: JSON.stringify({
         systemInstruction: {
           parts: [{ text: `${systemPrompt}\n\nRespond with ONLY valid JSON, no markdown fences, no prose outside the JSON object.` }],
