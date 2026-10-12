@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "seed": "tsx scripts/generate-seed.ts",
-    "fetch:daily": "tsx --env-file=.env.local scripts/fetch-daily/index.ts"
+    "fetch:daily": "tsx scripts/fetch-daily/index.ts",
+    "fetch:local": "tsx --env-file=.env.local scripts/fetch-daily/index.ts"
   },
   "dependencies": {
     "astronomy-engine": "^2.1.19",
