@@ -21,13 +21,15 @@ Open http://localhost:3000. Visit `/admin` for the pipeline debug view.
 
 ## Running the daily fetch locally
 
+Create a `.env.local` in the repo root (it's gitignored) with the keys below, then run:
+
 ```bash
-cp .env.example .env
-# fill in the keys below
-npm run fetch:daily
+npm run fetch:local   # loads .env.local via tsx --env-file
 ```
 
-Required API keys (see `.env.example`):
+`npm run fetch:daily` is the same job without an env file — it reads keys straight from the environment, which is what the GitHub Actions workflow uses (CI has no `.env.local`). Use it locally only if you've exported the keys in your shell.
+
+Required API keys:
 
 | Key | Used for | Get one at |
 |---|---|---|
@@ -35,6 +37,8 @@ Required API keys (see `.env.example`):
 | `GNEWS_KEY` | Fallback news source (optional) | https://gnews.io |
 | `ALPHAVANTAGE_KEY` | US/Germany/EU/India index quotes (ETF proxies) | https://www.alphavantage.co/support/#api-key |
 | `GEMINI_API_KEY` | Synthesizes every section's structured JSON from fetched facts; generates evergreen sections (word bank, shloka, astrology, etc.). Free tier, no billing required. | https://aistudio.google.com/apikey |
+
+Optional: set `GEMINI_MODEL` to override the Gemini model (defaults to `gemini-flash-latest`). In CI it's read from the repo's Actions **variables**, not secrets.
 
 No key is required for the IT Job Market section or the Astrology Corner's transit math (computed locally via `astronomy-engine`, no API).
 
@@ -46,7 +50,7 @@ If a key is missing, the affected sections don't crash the run — they're logge
 
 1. Push this repo to GitHub (already done if you're reading this from the repo).
 2. Import it into Vercel (vercel.com/new) — no special build config needed.
-3. In the GitHub repo, add the four API keys above as **Actions secrets** (Settings → Secrets and variables → Actions). This is what `.github/workflows/daily-fetch.yml` uses.
+3. In the GitHub repo, add the four API keys above as **Actions secrets** (Settings → Secrets and variables → Actions). This is what `.github/workflows/daily-fetch.yml` uses. Optionally add `GEMINI_MODEL` under the **Variables** tab of the same page.
 4. That's it — the workflow runs daily, commits fresh `data/*.json`, and Vercel redeploys automatically on every push.
 
 You can also trigger a run manually from the Actions tab (`workflow_dispatch`) instead of waiting for the schedule.
